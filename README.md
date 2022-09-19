@@ -1,5 +1,6 @@
 # BluetoothScanner
-![image](https://user-images.githubusercontent.com/62130401/191060174-22a1e773-a25d-479e-a22a-483a6df6de81.png)
+
+![image](https://user-images.githubusercontent.com/62130401/191060293-183b0b94-180d-42bd-b334-888d7af6dfe4.png)
 
  $Distance = 10 ^ {((Measured Power – RSSI)/(10 * N))}$
 
