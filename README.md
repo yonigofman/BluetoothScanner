@@ -42,7 +42,6 @@ data class BTScanner(
 
     ) {
     private  var bluetoothAdapter:BluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
-    private var job : Job? = null
 
     var isScanning: Boolean = false
          get() = field
