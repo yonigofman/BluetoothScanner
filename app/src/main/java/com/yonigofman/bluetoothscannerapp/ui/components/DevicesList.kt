@@ -75,13 +75,20 @@ fun DevicesList(viewModel: DevicesViewModel= DevicesViewModel()) {
         }
 
         item {
-            Text(text = "Scan ends in 10s", color = Color.White)
-            Text(text = "(range = 1 meter)", color = Color.White)
+            Text(text = "Scan Period - 10s", color = Color.White)
+            Text(text = "Range - 1m", color = Color.White)
         }
 
 
         items(sorted) {
             DeviceItem(it)
+        }
+
+        item{
+            Text(text = "Created By Yoni Gofman",
+            fontSize = 15.sp,
+            color = Color.White,
+            fontWeight = FontWeight.Bold)
         }
 
     }
