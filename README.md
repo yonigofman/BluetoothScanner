@@ -1,4 +1,6 @@
 # BluetoothScanner
+![screenshot_bt](https://user-images.githubusercontent.com/62130401/191061527-19d3df95-421b-4c69-b2b3-658da5e1b7fd.png)
+
 
 ### Formula 
 #### Distance = 10 ^ ((Measured Power – RSSI)/(10 * N))
