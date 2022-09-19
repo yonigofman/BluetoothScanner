@@ -1,4 +1,7 @@
 # BluetoothScanner
+![image](https://user-images.githubusercontent.com/62130401/191060174-22a1e773-a25d-479e-a22a-483a6df6de81.png)
+
+ $Distance = 10 ^ {((Measured Power – RSSI)/(10 * N))}$
 
 ## RSSI to Distance (Meter)
 ```kotlin
