@@ -12,6 +12,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.lifecycle.lifecycleScope
 import com.yonigofman.bluetoothscannerapp.Other.BTScanner
 import com.yonigofman.bluetoothscannerapp.Utils.Permissions.IPermissionsController
 import com.yonigofman.bluetoothscannerapp.Utils.Permissions.PermissionsController
@@ -55,8 +56,9 @@ class MainActivity :
     }
 
 
-        fun setScanner(){
+        private fun setScanner(){
            viewModel.setScanner(this)
+
         }
 
 }

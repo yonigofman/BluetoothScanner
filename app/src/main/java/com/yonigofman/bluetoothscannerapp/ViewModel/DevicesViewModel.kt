@@ -6,14 +6,17 @@ import androidx.compose.runtime.mutableStateMapOf
 import androidx.lifecycle.ViewModel
 import com.yonigofman.bluetoothscannerapp.Model.BTDevice
 import com.yonigofman.bluetoothscannerapp.Other.BTScanner
-import java.util.*
 
 class DevicesViewModel : ViewModel() {
 
+    private lateinit var scanner: BTScanner
 
-  private  val _devices = mutableStateMapOf<String, BTDevice>()
- private lateinit var scanner: BTScanner
+
+    private  val _devices = mutableStateMapOf<String, BTDevice>()
     val devices: Map<String, BTDevice> = _devices
+
+
+
 
 
     fun addDevice(device: BTDevice) {
@@ -34,8 +37,6 @@ class DevicesViewModel : ViewModel() {
             )
         }
 
-        if (device.name.contains("yoni"))
-            Log.d("yoni_gofman", "Founded!!!!!")
 
     }
 

@@ -59,4 +59,9 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+
+   // implementation "com.airbnb.android:lottie-compose:1.0.0-beta07-1"
+    implementation "com.airbnb.android:lottie-compose:5.2.0"
+
+
 }
